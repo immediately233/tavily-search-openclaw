@@ -1,0 +1,15 @@
+{
+  "api": {
+    "baseUrl": "https://api.tavily.com",
+    "apiKey": "YOUR_TAVILY_API_KEY_HERE",
+    "version": "v1"
+  },
+  "defaults": {
+    "searchDepth": "basic",
+    "maxResults": 5,
+    "includeAnswer": true,
+    "includeRawContent": false
+  },
+  "timeout": 10000,
+  "cacheDuration": 300000
+}

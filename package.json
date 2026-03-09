@@ -1,0 +1,19 @@
+{
+  "name": "tavily-search",
+  "version": "1.0.0",
+  "description": "Tavily AI搜索API技能",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js --query \"测试搜索\"",
+    "start": "node index.js --query \"默认搜索\""
+  },
+  "keywords": ["search", "tavily", "ai", "api", "openclaw"],
+  "author": "OpenClaw Assistant",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
